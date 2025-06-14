@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+
+
+/* Target horizontal scrollbar only */
+::-webkit-scrollbar {
+    height: 1px; /* Thin height for horizontal scrollbar */
+    width: 2px; /* Thin width for vertical scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: violet;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #c084fc; /* Lighter violet on hover (optional) */
+  }
+  
